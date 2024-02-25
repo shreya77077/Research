@@ -1,0 +1,30 @@
+
+type IndexingRule {
+    identifier: string
+    identifierType: IdentifierType
+    decisionBasis: IndexingDecisionBasis!
+    allocationAmount: number | null
+    allocationLifetime: number | null
+    autoRenewal: boolean
+    parallelAllocations: number | null
+    maxAllocationPercentage: number | null
+    minSignal: string | null
+    maxSignal: string | null
+    minStake: string | null
+    minAverageQueryFees: string | null
+    custom: string | null
+    requireSupported: boolean | null
+  }
+
+IdentifierType {
+  deployment
+  subgraph
+  group
+}
+
+IndexingDecisionBasis {
+  rules
+  never
+  always
+  offchain
+}

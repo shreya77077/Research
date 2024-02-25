@@ -1,0 +1,7 @@
+graph indexer rules offchain QmZfeJYR86UARzp9HiXbURWunYgC9ywvPvoePNbuaATrEK
+
+graph indexer rules set QmZfeJYR86UARzp9HiXbURWunYgC9ywvPvoePNbuaATrEK decisionBasis always allocationAmount 123321 allocationLifetime 14 autoRenewal false requireSupported false
+
+graph indexer rules stop QmZfeJYR86UARzp9HiXbURWunYgC9ywvPvoePNbuaATrEK
+
+graph indexer rules delete QmZfeJYR86UARzp9HiXbURWunYgC9ywvPvoePNbuaATrEK
